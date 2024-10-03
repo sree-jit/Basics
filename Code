@@ -1,0 +1,17 @@
+program hello_world
+    implicit none
+    ! Declare variables
+    integer :: a, b, sum
+    
+    ! Assign values to variables
+    a = 5
+    b = 10
+
+    ! Calculate the sum of a and b
+    sum = a + b
+
+    ! Print results
+    print *, 'Hello, World!'
+    print *, 'The sum of', a, 'and', b, 'is', sum
+
+end program hello_world
